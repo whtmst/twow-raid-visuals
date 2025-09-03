@@ -17,7 +17,11 @@ The highlights are summarised below:
 - **Molten Core:**
   - Baron Geddon indicates the radius of his Inferno ability.  Living Bomb has a rough indication of area of effect.  
   - Incindus indicates the radius of his Fire Nova.  
-  - Sorcerer-Thane Thaurissan indicates his debuffs on the player.  Rescaled Rune of Power ground effect.  
+  - Golem Twins indicate Molten Bulwark.  
+  - Sorcerer-Thane Thaurissan
+    - Indicates his rune debuffs on the player.  
+    - Rescaled Rune of Power ground effect.   
+    - Changed Rune of Power to be distinct from Rune of Detonation.  
 
 - **Blackwing Lair:** Warlocks and Spellbinders indicate the radius of their AoE damage.  
 
@@ -60,12 +64,14 @@ The highlights are summarised below:
   - Silenced the looping Duck quacks.  
   - - Was unable to make them just quack randomly as they lack fidget animations.  
   - Quieted Carvan Kodo footsteps.  
+  - Quieted Repair Bot movement.  
   - Gave Concussion Blow a different sound than Shield Slam.  
   - Gave Totemic Recall a different sound than totem placement.  
 
 - **Other:**
-  - Removed obnoxious green tinting from: Decaying Flesh debuff, Corrosive and Deadly Poison, Poison Spit pet attack.  
+  - Removed obnoxious green tinting from: Decaying Flesh debuff, Corrosive and Deadly Poison, Poison Spit pet attack, Gift of Arthas.  
   - Removed distracting stones from Earthquake.  
+  - Removed transparancy from Reality Fracture.  
   - Small tooltip fix for Spirit of the Ancients.  
 
 - **Credits:** These contributors did not ask to be credited but should be mentioned.  

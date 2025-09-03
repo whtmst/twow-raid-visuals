@@ -83,6 +83,30 @@ Spell.dbc:
       SpellVisualID_1: 8410
 ###################################
 
+### golem twins ###################
+# indicate bulwark
+SpellVisualKit.dbc:
+  - type: insert
+    values:
+      ID: 8412
+      BaseEffect: 2942 #fap effect
+      CharProc_1: 1
+      CharParamZero_1: 16716055.0
+
+SpellVisual.dbc:
+  - type: copy
+    key: 290
+    values:
+      ID: 8412
+      StateKit: 8412
+
+Spell.dbc:
+  - type: update
+    key: 47375 #molten bulwark
+    values:
+      SpellVisualID_1: 8412
+###################################
+
 ### thaurrisan ##################
 # essentially just doom'rel, 2x scaling
 
@@ -113,10 +137,12 @@ Spell.dbc:
     key: 52724 #zone1
     values:
       SpellVisualID_1: 0
+      SpellIconID: 2381 #icons are MUCH too similar
   - type: update
     key: 52729 #zone2
     values:
       SpellVisualID_1: 8415
+      SpellIconID: 2381 #icons are MUCH too similar
       # Speed: 255.0
 
 # rune of combusion, in

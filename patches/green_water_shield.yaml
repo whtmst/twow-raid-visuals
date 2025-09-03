@@ -63,7 +63,11 @@ SpellVisualEffectName.dbc:
 #   - type: update
 #     key: 51526
 #     values:
-#       SpellVisualID_1: 2476
+#       SpellVisualID_1: 8802
+  # - type: update
+    # key: 51536
+    # values:
+      # SpellVisualID_1: 72
 ##################################
 
 # Spell.dbc:
@@ -123,9 +127,10 @@ SpellVisualEffectName.dbc:
 # # give watershield our new spellvisual
 Spell.dbc:
   # - type: update
-  #   key: 51536
-  #   values:
-  #     SpellVisualID_1: 8416
+    # key: 51536
+    # values:
+      # SpellVisualID_1: 8412
+      # SpellIconID: 2381
   # - type: update
   #   key: 51526
   #   values:
@@ -398,3 +403,7 @@ Spell.dbc:
 #     key: 51182
 #     values:
 #       ID: 5740
+
+
+#todo poison spray visual for naxx spiders
+#meph hellfire radius

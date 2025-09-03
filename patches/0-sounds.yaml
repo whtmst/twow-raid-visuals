@@ -16,6 +16,13 @@ CreatureModelData.dbc:
       SoundID: 171 # turtle footsteps
 ###################################
 
+### field repair bot 75b ##########
+CreatureSoundData.dbc:
+  - type: update
+    key: 72
+    values:
+      SoundFootStepID: 0
+###################################
 
 ### totemic recall ################
 # give unique sound

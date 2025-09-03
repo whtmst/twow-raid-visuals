@@ -66,6 +66,43 @@ SpellVisual.dbc:
 
 #######################################################
 
+### Reality Fracture #################################
+# translucent raid bosses are annoying
+SpellVisual.dbc:
+  - type: copy
+    key: 72
+    values:
+      Id: 8802
+      StateKit: 0
+Spell.dbc:
+  - type: update
+    key: 52593
+    values:
+      SpellVisualID_1: 8802
+#######################################################
+
+#######################################################
+# remove the green effect from gift of arthas
+#######################################################
+SpellVisualKit.dbc:
+  - type: copy
+    key: 564
+    values:
+      Id: 8803
+      CharProc_1: 0 #remove coloring
+SpellVisual.dbc:
+  - type: copy
+    key: 2226
+    values:
+      Id: 8803
+      StateKit: 8803
+Spell.dbc:
+  - type: update
+    key: 11374
+    values:
+      SpellVisualID_1: 8803
+#######################################################
+
 ### Spirit of the Ancients ############################
 # just a small tooltip fix. #todo, remove this if devs fix it
 Spell.dbc:
@@ -79,12 +116,6 @@ Spell.dbc:
       AuraDescription_lang_0: Generating $/10;s1 Rage per second.
 #######################################################
 
-
-
-# todo, brainwashers should have a light beam
-# todo, mailboxes should have a light beam
-# closest we can do is prob making an arrow that casts on the player location
-
 # #######################################################
 # # mailbox
 # #######################################################
@@ -93,8 +124,7 @@ Spell.dbc:
 #     key: 6448
 #     values:
 #       Id: 8805
-#       # KitType: 3
-#       # WorldEffect: 2989
+#       WorldEffect: 2989
 
 # SpellVisual.dbc:
 #   - type: copy
@@ -113,5 +143,5 @@ Spell.dbc:
 # #######################################################
 
 # todo see if you can affect hurricane translucency
-# todo check shadowguard for why it renders weird
-# todo check naxx tiny sword mobs?
+# todo check shadowguard for why it renders weird. it's the model itself
+# check out ghostwolf circular effect
