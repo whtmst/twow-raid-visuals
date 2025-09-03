@@ -21,7 +21,7 @@ The highlights are summarised below:
   - Sorcerer-Thane Thaurissan
     - Indicates his rune debuffs on the player.  
     - Rescaled Rune of Power ground effect.   
-    - Changed Rune of Power to be distinct from Rune of Detonation.  
+    - Changed Rune of Power icon to be distinct from Rune of Detonation.  
 
 - **Blackwing Lair:** Warlocks and Spellbinders indicate the radius of their AoE damage.  
 
