@@ -105,136 +105,16 @@ Spell.dbc:
 
 ### Spirit of the Ancients ############################
 # just a small tooltip fix. #todo, remove this if devs fix it
-Spell.dbc:
-  - type: update
-    key: 53219
-    values:
-      AuraDescription_lang_0: Generating $/10;s1 Rage per second.
-  - type: update
-    key: 53220
-    values:
-      AuraDescription_lang_0: Generating $/10;s1 Rage per second.
+# Spell.dbc:
+#   - type: update
+#     key: 53219
+#     values:
+#       AuraDescription_lang_0: Generating $/10;s1 Rage per second.
+#   - type: update
+#     key: 53220
+#     values:
+#       AuraDescription_lang_0: Generating $/10;s1 Rage per second.
 #######################################################
-
-### fix for twow forgetting icon paths ##################
-SpellIcon.dbc:
-  - type: update
-    key: 2407
-    values:
-      TextureFilename: Interface\Icons\inv_potion_120
-  - type: update
-    key: 2408
-    values:
-      TextureFilename: Interface\Icons\inv_potion_106
-  - type: update
-    key: 2409
-    values:
-      TextureFilename: Interface\Icons\inv_potion_112
-  - type: update
-    key: 2410
-    values:
-      TextureFilename: Interface\Icons\inv_potion_113
-  - type: update
-    key: 2411
-    values:
-      TextureFilename: Interface\Icons\inv_potion_114
-  - type: update
-    key: 2412
-    values:
-      TextureFilename: Interface\Icons\inv_potion_123
-  - type: update
-    key: 2413
-    values:
-      TextureFilename: Interface\Icons\inv_potion_124
-  - type: update
-    key: 2414
-    values:
-      TextureFilename: Interface\Icons\inv_potion_115
-  - type: update
-    key: 2415
-    values:
-      TextureFilename: Interface\Icons\inv_potion_116
-  - type: update
-    key: 2416
-    values:
-      TextureFilename: Interface\Icons\inv_potion_128
-  - type: update
-    key: 2417
-    values:
-      TextureFilename: Interface\Icons\inv_misc_monsterscales_28
-  - type: update
-    key: 2418
-    values:
-      TextureFilename: Interface\Icons\inv_stone_17
-  - type: update
-    key: 2419
-    values:
-      TextureFilename: Interface\Icons\inv_stone_18
-  - type: update
-    key: 2420
-    values:
-      TextureFilename: Interface\Icons\inv_potion_142
-  - type: update
-    key: 2421
-    values:
-      TextureFilename: Interface\Icons\inv_potion_143
-  - type: update
-    key: 2422
-    values:
-      TextureFilename: Interface\Icons\inv_drink_33
-  - type: update
-    key: 2423
-    values:
-      TextureFilename: Interface\Icons\inv_potion_141
-  - type: update
-    key: 2424
-    values:
-      TextureFilename: Interface\Icons\inv_mana_agate_01
-  - type: update
-    key: 2425
-    values:
-      TextureFilename: Interface\Icons\inv_mana_jade_01
-  - type: update
-    key: 2426
-    values:
-      TextureFilename: Interface\Icons\inv_mana_citrine_01
-  - type: update
-    key: 2427
-    values:
-      TextureFilename: Interface\Icons\inv_mana_ruby_01
-  - type: update
-    key: 2428
-    values:
-      TextureFilename: Interface\Icons\inv_trinket_naxxramas07
-  - type: update
-    key: 2429
-    values:
-      TextureFilename: Interface\Icons\spell_fire_elemental_totem
-  - type: update
-    key: 2430
-    values:
-      TextureFilename: Interface\Icons\spell_nature_poisoncleansingtotem
-  - type: update
-    key: 2431
-    values:
-      TextureFilename: Interface\Icons\spell_frost_summonwaterelemental
-  - type: update
-    key: 2432
-    values:
-      TextureFilename: Interface\Icons\Spell_shadow_summonvoidwalker
-  - type: update
-    key: 2433
-    values:
-      TextureFilename: Interface\Icons\spell_holy_devotion
-  - type: update
-    key: 2434
-    values:
-      TextureFilename: Interface\Icons\spell_holy_greaterblessingsofkings
-  - type: update
-    key: 2435
-    values:
-      TextureFilename: Interface\Icons\inv_corrosive_01
-#########################################################
 
 # #######################################################
 # # mailbox
